@@ -4,18 +4,23 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CSS base</title>
-	<link rel="stylesheet" href="css/css_base.css">
+	<link rel="stylesheet" href="css/css_selector.css">
+	<title>CSS Selector</title>
 	<style>
 		div{
-			color: #fff;
-			background: #753535;
+			color: green;
 		}
 	</style>
+
 </head>
 <body>
-	<div style="color: #e15817;">HTML 屬性宣告 1</div>
-	<div style="color: blue;">HTML 屬性宣告 2</div>
-	<span>test span</span>
+	<div style="color: yellow;">One</div>
+
+	<span id="two" class="mtwo">Two</span>
+
+	<span class="mtwo">
+		test span
+		<div>Three</div>
+	</span>
 </body>
 </html>
